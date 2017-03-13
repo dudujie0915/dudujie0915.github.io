@@ -70,8 +70,8 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/dudujie0915/dudujie0915.github.io.git
-  #repo: git@github.com:dudujie0915/dudujie0915.github.io.git
+  #repo: https://github.com/dudujie0915/dudujie0915.github.io.git
+  repo: git@github.com:dudujie0915/dudujie0915.github.io.git
   branch: master
 
 
