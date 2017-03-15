@@ -69,6 +69,7 @@ comments: false
 - [jsfiddle.net](https://jsfiddle.net/)
 - [jsrun](http://jsrun.net/)
 - [懒人工具箱](http://tool.lanrentuku.com/)
+- [前端工具库](http://www.qdfuns.com/tools.php)
 
 ## 6.综合站点
 ### 6-1.综合网站
@@ -86,6 +87,7 @@ comments: false
 - [51cto](http://www.51cto.com/)
 - [ITeye技术网站](http://www.iteye.com/)
 - [伯乐在线](http://www.jobbole.com/)
+- [前端里](http://www.yyyweb.com/)
 
 ### 6-2.社区网站
 - [前端社区](http://www.jqsite.com/)
@@ -111,10 +113,12 @@ comments: false
 - [JavaScript 资源大全](https://github.com/jobbole/awesome-javascript-cn)
 - [前端技术书](https://github.com/jobbole/awesome-web-dev-books)
 - [前端技能栈](https://github.com/jobbole/web-skill-set)
+- [F2E 前端导航](http://f2e.im/static/pages/nav/index.html)
 
 ### 6-4.教程和手册
 - [W3C](http://www.w3school.com.cn/)
 - [菜鸟教程](http://www.runoob.com/)
+- [overapi](http://overapi.com/)
 
 ## 7.网页特效
 - [网码市|切图](http://www.qietu.com/codes/)
@@ -130,6 +134,9 @@ comments: false
 - [张鑫旭](http://www.zhangxinxu.com/)
 - [阮一峰的网络日志](http://www.ruanyifeng.com/home.html)
 - [堂主](http://www.osmn00.com/)
+- [前端开发](http://www.wufangbo.com/)
+- [漠河](http://mobilehub.io/categories/Development)
+- [helloweba](http://www.helloweba.com/)
 
 ## 9.其它
 - [懒人图库](http://www.lanrentuku.com/)
@@ -182,3 +189,7 @@ comments: false
 ### 14-1.模块化
 ### 14-2.框架
 - [sea.js](http://seajs.org/docs/#intr)
+
+## 15.验证
+- [jslint](http://www.jslint.com/)
+- [csslint](http://csslint.net/)
