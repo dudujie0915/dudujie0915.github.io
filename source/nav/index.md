@@ -25,12 +25,13 @@ comments: false
 - [极客学院](http://www.jikexueyuan.com/)
 - [麦子学院](http://www.maizitime.com/)
 - [网易云课堂](http://study.163.com/)
-- [51CTO](http://edu.51cto.com/)
+- [51CTO学院](http://edu.51cto.com/)
 - [HTML5培训](http://www.h5edu.cn/index.php)
 - [极客标签](http://www.gbtags.com/gb/index.htm)
 - [mooc学院](http://mooc.guokr.com/)
 - [汇智网](http://www.hubwiz.com/)
 - [传智播客](http://www.itcast.cn/)
+- [萌码](http://www.mengma.com/)
 
 ## 4.Node.js教程 ##
 - [菜鸟教程-Node.js教程](http://www.runoob.com/nodejs/nodejs-tutorial.html)
@@ -88,6 +89,7 @@ comments: false
 - [ITeye技术网站](http://www.iteye.com/)
 - [伯乐在线](http://www.jobbole.com/)
 - [前端里](http://www.yyyweb.com/)
+- [HTML5中国](http://www.html5cn.org/)
 
 ### 6-2.社区网站
 - [前端社区](http://www.jqsite.com/)
@@ -187,8 +189,10 @@ comments: false
 
 ## 14.模块化和框架
 ### 14-1.模块化
-### 14-2.框架
 - [sea.js](http://seajs.org/docs/#intr)
+
+### 14-2.框架
+- [bootstrap中文网](http://www.bootcss.com/)
 
 ## 15.验证
 - [jslint](http://www.jslint.com/)
