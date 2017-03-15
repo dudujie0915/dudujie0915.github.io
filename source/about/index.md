@@ -14,8 +14,8 @@ comments: false
 1. 基础和脚本：
     - **[HTML](/categories/HTML/)**
     - **[HTML5（Canvas特别关注）](/categories/HTML/)**
-    - **CSS**
-    - **CSS3**
+    - **[CSS](/categories/CSS/)**
+    - **[CSS3](/categories/CSS/)**
     - **[JavaScript](/categories/JavaScript/)**
 2. 类库、服务器语言和数据：
     - **LESS**
@@ -71,7 +71,7 @@ comments: false
     - bower
     ----------
     - **Gulp**
-    - Fis 3
+    - [Fis 3](http://fis.baidu.com/fis3/index.html)
     - brunch
     ----------
     - **Vue.js(MVVM)**
