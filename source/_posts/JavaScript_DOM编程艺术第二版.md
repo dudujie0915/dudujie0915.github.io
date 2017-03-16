@@ -28,7 +28,7 @@ W3C组织发起，Netscape、微软和其他一些浏览器制造商联合制定
 ## 2.语法
 ### 2.1 语句
 语句用";"区分
-```
+```javascript
 多行语句
 first statement;
 second statement;
@@ -37,7 +37,7 @@ second statement;
 first statement;  second statement;
 ```
 ### 2.2 注释
-```
+```javascript
 //单行注释
 <!--单行注释，HTML风格，没有闭合标签，只能用于单行注释，容易混淆，最好不要用
 
@@ -710,7 +710,7 @@ DEMO:[explanation.html](http://oboiq86te.bkt.clouddn.com/gellery/explanation.htm
 - 表示层：由CSS负责完成，用来描述页面内容应该如何呈现；
 - 行为层：负责内容应该如何相应事件这一问题，这是JavaScript语言和DOM主宰的领域；
 ## 2. style属性 ##
-```
+```javascript
 <p id="example" style="color:grey;font-family:'Arial',sans-serif;">An example of a paragraph</p>
 
 var para = document.getElementById("example);

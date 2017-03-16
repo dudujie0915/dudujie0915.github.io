@@ -143,6 +143,7 @@ comments: false
 ## 9.其它
 - [懒人图库](http://www.lanrentuku.com/)
 - [创造狮导航](http://chuangzaoshi.com/)
+
 ### 9-1.在线字体和图标
 - [Font Awesome](http://fontawesome.dashgame.com/#spinning)
 - [iconfont](http://www.iconfont.cn/)
@@ -186,13 +187,26 @@ comments: false
 ## 13.编码规范
 - [编码规范总结](https://github.com/ecomfe/spec)
 - [Google web开发规范](http://wf.uisdc.com/cn/)
+- [前端代码规范](http://guide.chenzh.net/)
 
 ## 14.模块化和框架
 ### 14-1.模块化
 - [sea.js](http://seajs.org/docs/#intr)
+- [artTemplate](http://aui.github.io/artTemplate/)
+- [requirejs](http://www.requirejs.cn/)
 
-### 14-2.框架
+### 14-2.UI框架
 - [bootstrap中文网](http://www.bootcss.com/)
+- [layui](http://www.layui.com/)
+
+### 14-3.JS框架
+- [vue.js](https://cn.vuejs.org/)
+- [weex](https://weex-project.io/)
+
+### 14-4.CSS框架
+- [less](http://lesscss.cn/)
+- [sass](http://www.w3cplus.com/sassguide/)
+
 
 ## 15.验证
 - [jslint](http://www.jslint.com/)
