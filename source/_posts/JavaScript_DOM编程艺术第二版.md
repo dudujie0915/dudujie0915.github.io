@@ -757,4 +757,57 @@ HTML5在低版本的浏览器上支持不好，需要进行降级处理，平稳
 - Canvas：可以动态创建和操作图形图像；
 - video和audio：视频和音频，对于视频格式的支持有点问，目前主要有Ogg、MP4、WebM等格式；可以进行自定义控件；
 - 表单：HTML5中新的输入类型包括email、url、date、number、range、search、tel、color等；HTML5中新增的表单属性包括autocomplete、autofocus、form、min、max、step、pattern、placeholder、required等；需要对浏览器进行兼容性测试；
-
+# 十三、JavaScript库#
+库（就是可重用的代码包）的优点：
+* 库代码应该大量用户的测试和验证；
+* 库能够很容易地与已有的开发框架集成；
+* 库为大多数日常琐碎的DOM编程工作提供了方便、简洁的方案，每个函数都能节省很多代码；
+* 库很好的解决了跨浏览器的问题，更省心；   
+库的缺点：
+* 库是别人编写的，自己可能不了解内部工作机制，因此很难调试bug或解决由它所导致的问题；
+* 要使用库，就要把它集成在脚本中，这样会加重页面加载的负担，挤占用户的宽带；
+* 混合使用多个库可能导致冲突，同时造成功能浪费；
+## 1.选择合适的库：
+* 它具备你需要的所有的功能吗？
+* 它的功能是否比你想要的还多？
+* 它是模块化的吗？
+* 它的支持情况怎么样？
+* 它有文档吗？
+* 它的许可合适吗？
+### 1-1.有代表性的库
+* JQuery
+* Prototype
+* YUI
+* Dojo
+* MooTools
+### 1-2.内容分发网络（CDN）
+* 它解决分布共享库的问题；
+* Google、baidu等提供了免费的CDN服务；
+* 为了保险起见，可以提供一个后背<script>标签，以便在CDN不可用时从本地服务器下载相应文件；
+```javascript
+<script>!window.jQuery && document.write(unscape('%3C script src="文件路径"%3E%3C/script%3E'))</script>
+```
+## 2.语法 
+* JQuery等许多库，把$()函数作为其选择器方法的缩写；
+* 方法连缀：多数库都支持以点将方法连缀起来的语法，也就是通过点操作符把多个方法调用连接成一行；
+* 迭代
+## 3.选择元素
+* CSS选择器
+* 库所提供的专有选择器
+* 使用回调函数筛选
+## 4.操作DOM元素
+* 生成内容
+* 操作内容
+## 5.处理事件
+* 加载事件
+* 其它事件
+## 6.Ajax
+* $.post(url,params,callback)
+* $.get(url,params,callback)
+* $.getJSON(url,params,callback)
+* $.getScript(url,params,callback)
+* $(expression).load(url,params,callback)
+## 7.动画和效果
+* 基于CSS属性的动画（animate）
+* 组合动画
+* 注意可访问性
