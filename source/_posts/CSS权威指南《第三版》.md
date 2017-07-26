@@ -502,6 +502,10 @@ clear，值有left、right、both、none；
 - 垂直对齐（很容易影响行高）使用vertical-align属性：①top，单元格内容顶端与其行顶端对齐；对于跨行单元格，单元格内容的顶端与其所跨的第一行的顶端对齐；②bottom，单元格内容底端与其行底端对齐；对于跨行单元格，单元格内容的底端与其所跨的最后一行的底端对齐；③单元格内容的中间与其行中间对齐；对于跨行单元格，单元格内容的中间与其所跨行的中间对齐；④baseline，单元格的基线与其行的基线对齐；对于跨行单元格，该单元格的基线与所跨的第一行的基线对齐；
 
 # 十二、列表与生成内容
+CSS允许创作人员定义自己的计数模式和格式，而且可以将这些计数器与任何元素关联，而不只是有序列表；
+
 ## 1. 列表 ##
+### 1.1 列表类型 ###
+list-style-type: disc(默认) | circle | square | decimal | decimal-leading-zero | upper-alpha | upper-latin | lower-alpha | lower-lation | upper-roman | lower-roman | lower-greek | armenian | georgian | none,应用于display值为list-item的元素
 
 ## 2. 生成内容 ## 
