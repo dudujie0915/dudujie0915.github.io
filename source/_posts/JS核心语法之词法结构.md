@@ -23,7 +23,7 @@ Unicode允许使用多种方法对同一个字符进行编码。比如复杂的�
 
 # 注释
 两种注释方式
-```
+```javascript
 //单行注释
 
 /*
@@ -54,7 +54,7 @@ xxx
 ## 保留字
 保留字(即关键字)不能用做标识符。    
 保留字有：  
-```  
+```javascript
 break  case  catch  continue  debugger  default    
 delete  do  else  false  finally  for    
 function  if  in  instanceof  new  null    
@@ -62,20 +62,20 @@ return  switch  this  throw  true  try
 typeof  var  void while  with  
 ```
 ES5保留的关键字：
-```
+```javascript
 class  const  enum  export  extends  import  super
 ```
 普通模式合法，严格模式下是保留字：
-```
+```javascript
 implements  interface  let  package  private  protected    
 public  static  yield
 ```
 下面的标识符在严格模式下并不完全是保留字，但是不能用做变量名、函数名或参数名：
-```
+```javascript
 arguments  eval
 ```
 JavaScript预定义的全局变量和函数，应避免把他们的名字用做变量名和函数名：    
-```
+```javascript
 arguments  Array  Boolean  Date  decodeURI  decodeURIComponent
 encodeURI  encodeURIComponent  Error  eval  EvalError  Function
 Infinity  isFinite  isNaN JSON  Math  NaN
@@ -91,3 +91,15 @@ JavaScript使用分号(;)将语句分割开；
 JavaScript并不是在所以换行处都填补分号，只有在缺少了分号无法正常解析代码的时候才会填补分号；   
 如果一条语句以"("或"["(此两种比较常见)、"/"或"+"或"-"(此三种不常见)开始，它极有可能和前一条语句合在一起解析；在语句前加上一个分号，可以有效的防止错误；    
 如果当前语句和下一行无法合并解析，JavaScript则在第一行后填补分号，但有两个例外：一个是涉及到return、break和countinue语句的场景中，如果这三个关键词后紧跟着换号，JavaScript会在换行处填补分号；二是在涉及"++"和"--"运算符(它们既可以作为表达式的前缀，也可以当做表达式的后缀)的时候，如果将其用做后缀表达式，它和表达式应当在同一行，否则行尾将填补分号，同时"++"或"--"会作为下一行的前缀操作符并与之一起解析；
+
+# 编程风格
+所谓“编程风格”，指的是编写代码的样式规则；“编程风格”要考虑如何尽量使代码清晰易读、减少出差；     
+如果选定了一种“编程风格”，就应当坚持遵守，切记多种风格混用；     
+## 缩进
+空格和Tab键，都可以；Tab可节省击键次数，但是不同文本编辑器对Tab显示不尽相同，空格键可以使得显示效果更统一；     
+始终坚持一种选择；          
+## 区块
+如果循环和判断的代码体只有一行，JavaScript允许该区块省略大括号，但是应该总是使用大括号表示区块；     
+区块起首的大括号的位置，最流行的有两种写法：一是起首的大括号另起一行，二是起首的大括号跟在关键词的后面；表示起首的大括号不要另起一行；     
+## 圆括号
+圆括号在JavaScript中有两种作用，一是表示函数的调用，二是表示表达式的组合；
