@@ -3,7 +3,7 @@ title: 【笔记】核心语法之字符串
 date: 2017-07-26
 tags: [笔记,教程,JavaScript]
 categories: JavaScript
----    
+---
 字符串(string)是一组由16位值组成的不可变的有序序列，每个字符通常来自于Unicode字符集；     
 JavaScript通过字符串类型表示文本；    
 字符串的长度(length)是其所含16位值得个数；    
