@@ -32,6 +32,11 @@ comments: false
 - [汇智网](http://www.hubwiz.com/)
 - [传智播客](http://www.itcast.cn/)
 - [萌码](http://www.mengma.com/)
+- [IT修真院](https://www.jnshu.com/home)
+- [百战程序员](https://www.itbaizhan.cn/stages/id/16)
+- [freecodecamp](https://freecodecamp.cn/)
+- [牛客网](https://www.nowcoder.com/)
+- [领扣](https://leetcode-cn.com/)
 
 ## 4.Node.js教程 ##
 - [菜鸟教程-Node.js教程](http://www.runoob.com/nodejs/nodejs-tutorial.html)
@@ -71,6 +76,7 @@ comments: false
 - [jsrun](http://jsrun.net/)
 - [懒人工具箱](http://tool.lanrentuku.com/)
 - [前端工具库](http://www.qdfuns.com/tools.php)
+- [Jshare](https://jshare.com.cn/new)
 
 ## 6.综合站点
 ### 6-1.综合网站
@@ -90,6 +96,25 @@ comments: false
 - [伯乐在线](http://www.jobbole.com/)
 - [前端里](http://www.yyyweb.com/)
 - [HTML5中国](http://www.html5cn.org/)
+- [小白资源网吧](https://tieba.baidu.com/f?kw=%E5%B0%8F%E7%99%BD%E8%B5%84%E6%BA%90%E7%BD%91&ie=utf-8)
+- [html吧](http://tieba.baidu.com/f?kw=html&ie=utf-8)
+- [css吧](http://tieba.baidu.com/f?kw=css&ie=utf-8)
+- [JavaScript吧](http://tieba.baidu.com/f?ie=utf-8&kw=javascript)
+- [印记中文](https://docschina.org/)
+- [极客教程网](https://www.geekjc.com/)
+- [前端微信公众号](https://weixin.sogou.com/weixin?type=1&ie=utf8&query=%E5%89%8D%E7%AB%AF)
+- [前端微信号](http://chuansong.me/search?q=%E5%89%8D%E7%AB%AF)
+- [一览](http://www.yilan.io/explore/category/?category=%E7%BC%96%E7%A8%8B)
+- [爱思资源网](http://www.aseoe.com/)
+- [前端学院](http://edu.aseoe.com/)
+- [w3cschool.cn](https://www.w3cschool.cn/)
+- [infoq](http://www.infoq.com/cn/)
+- [前端每周清单](http://www.infoq.com/cn/FE-Weekly/news/)
+- [常用前端代码](http://www.jq22.com/webinfo1)
+- [Web开发者](http://www.admin10000.com/)
+- [酷推-前端开发](https://www.tuicool.com/sites/hot?id=11000079)
+- [IT知识库](http://knowledge.zhizuobiao.com/)
+- [开发者知识库](http://www.itdaan.com/index.html)
 
 ### 6-2.社区网站
 - [前端社区](http://www.jqsite.com/)
@@ -100,6 +125,8 @@ comments: false
 - [开源中国社区](https://www.oschina.net/)
 - [MDN](https://developer.mozilla.org/zh-CN/)
 - [知乎](https://www.zhihu.com/)
+- [小专栏](https://xiaozhuanlan.com/)
+- [异步社区](https://www.epubit.com/)
 
 ### 6-3.导航网站
 - [前端技能汇总](http://html5ify.com/fks/)
@@ -116,11 +143,18 @@ comments: false
 - [前端技术书](https://github.com/jobbole/awesome-web-dev-books)
 - [前端技能栈](https://github.com/jobbole/web-skill-set)
 - [F2E 前端导航](http://f2e.im/static/pages/nav/index.html)
+- [Web前端导航](http://www.alloyteam.com/nav/)
+- [1纳米学习网站导航](http://1nami.com/)
+- [Web前端导航](https://www.vue-js.com/nav.html#fePortals)
+- [开发导航](https://uirush.com/page/development)
+- [大前端导航](http://www.daqianduan.com/nav#0)
 
 ### 6-4.教程和手册
 - [W3C](http://www.w3school.com.cn/)
 - [菜鸟教程](http://www.runoob.com/)
 - [overapi](http://overapi.com/)
+- [前端速查表](http://caibaojian.com/scb/)
+- [mozilla](https://developer.mozilla.org/zh-CN/)
 
 ## 7.网页特效
 - [网码市|切图](http://www.qietu.com/codes/)
@@ -135,10 +169,28 @@ comments: false
 - [前端观察](https://www.qianduan.net/)
 - [张鑫旭](http://www.zhangxinxu.com/)
 - [阮一峰的网络日志](http://www.ruanyifeng.com/home.html)
+- [老赵](http://blog.zhaojie.me/)
+- [左耳朵耗子](https://coolshell.cn/)
 - [堂主](http://www.osmn00.com/)
 - [前端开发](http://www.wufangbo.com/)
 - [漠河](http://mobilehub.io/categories/Development)
 - [helloweba](http://www.helloweba.com/)
+- [W3Cplus](http://www.w3cplus.com/)
+- [alloyteam](http://www.alloyteam.com/)
+- [CSS森林](http://blog.cssforest.org/)
+- [周爱民](https://aimingoo.github.io/)
+- [三生石上](http://www.cnblogs.com/sanshi)
+- [司徒正美](http://www.cnblogs.com/rubylouvre)
+- [叶小钗](http://www.cnblogs.com/yexiaochai)
+- [当耐特](http://www.cnblogs.com/iamzhanglei/)
+- [jinlong](http://jinlong.github.io/)
+- [isux](https://isux.tencent.com/)
+- [腾讯 CDC](https://cdc.tencent.com/)
+- [阿里巴巴（中国站）用户体验设计部博客U一点设计](http://www.aliued.cn/)
+- [jspang](http://jspang.com/)
+- [前端开发博客](http://caibaojian.com/)
+- [美团](https://tech.meituan.com/)
+- [淘宝前端团队](http://taobaofed.org/)
 
 ## 9.其它
 - [懒人图库](http://www.lanrentuku.com/)
