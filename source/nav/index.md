@@ -254,12 +254,22 @@ comments: false
 ### 14-3.JS框架
 - [vue.js](https://cn.vuejs.org/)
 - [weex](https://weex-project.io/)
+- [three.js](http://www.ituring.com.cn/minibook/792)
+- [Mand Mobile](https://mand-mobile.gitee.io/docs/index.gitee.html#/zh-CN/home)
 
 ### 14-4.CSS框架
 - [less](http://lesscss.cn/)
 - [sass](http://www.w3cplus.com/sassguide/)
 
+### 14-5.混合开发
+- [NativeScript](https://www.kancloud.cn/nativescriptcn/nativescript-in-chinese/222653)
+
+### 14-6.PWA
+- [Lavas教程](https://lavas.baidu.com/guide)
 
 ## 15.验证
 - [jslint](http://www.jslint.com/)
 - [csslint](http://csslint.net/)
+
+### 16.工程化
+- []
