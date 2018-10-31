@@ -4,76 +4,15 @@ date: 2016-07-26 11:31:22
 type: "nav"
 comments: false
 ---
-# 一、前端导航
-## 1.常用导航
-- [**tool.css-js**](https://www.css-js.com/)
-- [**tinypng**](https://tinypng.com/)
-- [**spritecow**](http://www.spritecow.com/)
-
-## 2.我的使用
+# 0.常用网站
 - [**七牛云存储**](https://portal.qiniu.com/create)
 - [**微信公众平台**](https://mp.weixin.qq.com/)
 - [**阿里云**](https://www.aliyun.com/)
 
-## 3.在线课程 ##
-- [**牛客网**](https://www.nowcoder.com/)
-- [**领扣**](https://leetcode-cn.com/)
-- [慕课网](http://www.imooc.com/)
-- [百度传课](http://www.chuanke.com/)
-- [腾讯课堂](https://ke.qq.com/)
-- [极客学院](http://www.jikexueyuan.com/)
-- [网易云课堂](http://study.163.com/)
-- [51CTO学院](http://edu.51cto.com/)
-- [汇智网](http://www.hubwiz.com/)
-- [传智播客](http://www.itcast.cn/)
-- [IT修真院](https://www.jnshu.com/home)
-- [百战程序员](https://www.itbaizhan.cn/stages/id/16)
-- [freecodecamp](https://freecodecamp.cn/)
-- [智能社](http://www.zhinengshe.com/)
-- [实验楼](https://www.shiyanlou.com/)
-
-## 4.Node.js教程 ##
-- [菜鸟教程-Node.js教程](http://www.runoob.com/nodejs/nodejs-tutorial.html)
-- [Node入门](http://www.nodebeginner.org/index-zh-cn.html#javascript-and-nodejs)
-- [node.js相关的中文文档及教程(豆瓣小组)](https://www.douban.com/group/topic/35067110/)
-- [进击Node.js基础（一）](http://www.imooc.com/view/348)
-- [官网](https://nodejs.org/en/)
-- [中文官网](http://nodejs.cn/)
-- [Node.js 包教不包会](https://github.com/alsotang/node-lessons)
-- [CNode：Node.js专业中文社区]( https://cnodejs.org/)
-- [Node.js的学习资源、教程和工具](http://blog.jobbole.com/75084/)
-- [七天学会NodeJS](http://nqdeng.github.io/7-days-nodejs/#1.1)
-- [nodejs全部下载地址 官方](https://nodejs.org/dist/)
-- [Node.js v8.x 中文文档](https://www.nodeapp.cn/)
-- [Node.js知识体系图](http://www.jikexueyuan.com/path/nodejs/)
-
-## 5.工具集合 ##
-### 5-1.图片压缩和放大 ###
-- [图好看](http://www.tuhaokuai.com/image) 
-- [智图](http://zhitu.isux.us/)
-- [tinypng](https://tinypng.com/)
-- [图片放大](http://bigjpg.com/)
-
-### 5-2.在线占位图 ###
-- [**temp.im**](http://temp.im/300x200/333/EEE)
-- [**placeholder.cn**](http://placeholder.cn/300x200/333/EEE)
-- [占位图导航](http://c7sky.com/the-top-10-image-placeholder-services.html)
-- [lorempixel.com](http://lorempixel.com/)
-- [placehold.it](http://placehold.it/)
-- [dummyimage.com](http://dummyimage.com/)
-- [fakeimg.pl](http://fakeimg.pl/)
-
-### 5-3.在线工具
-- [在线工具](http://tool.oschina.net/)
-- [在线工具2](http://tool.lu/)
-- [jsfiddle.net](https://jsfiddle.net/)
-- [jsrun](http://jsrun.net/)
-- [懒人工具箱](http://tool.lanrentuku.com/)
-- [Jshare](https://jshare.com.cn/new)
-
-## 6.综合站点
-### 6-1.综合网站
+# 1.综合站点
+## 1-1.综合网站
 - [奇舞周刊](https://weekly.75team.com/)
+- [奇舞团](https://75team.com/)
 - [凹凸实验室](https://aotu.io/index.html)
 - [前端笔记](http://www.w3cmark.com/)
 - [大前端](http://www.daqianduan.com/)
@@ -108,8 +47,9 @@ comments: false
 - [酷推-前端开发](https://www.tuicool.com/sites/hot?id=11000079)
 - [IT知识库](http://knowledge.zhizuobiao.com/)
 - [开发者知识库](http://www.itdaan.com/index.html)
+- [创造狮导航](http://chuangzaoshi.com/)
 
-### 6-2.社区网站
+## 1-2.社区网站
 - [前端社区](http://www.jqsite.com/)
 - [前端乱炖](http://www.html-js.com/)
 - [CSDN](http://www.csdn.net/)
@@ -122,7 +62,7 @@ comments: false
 - [异步社区](https://www.epubit.com/)
 - [简书](http://www.jianshu.com/)
 
-### 6-3.导航网站
+## 1-3.导航网站
 - [前端技能汇总](http://html5ify.com/fks/)
 - [大前端工具集](http://www.fefork.com/fetool/)
 - [前端知识框架](https://github.com/Aierui/Front--end--stack)
@@ -143,18 +83,22 @@ comments: false
 - [开发导航](https://uirush.com/page/development)
 - [大前端导航](http://www.daqianduan.com/nav#0)
 
-### 6-4.教程和手册
+## 1-4.教程和手册
 - [W3C](http://www.w3school.com.cn/)
 - [菜鸟教程](http://www.runoob.com/)
 - [overapi](http://overapi.com/)
 - [前端速查表](http://caibaojian.com/scb/)
 - [mozilla](https://developer.mozilla.org/zh-CN/)
-
-## 7.网页特效
-- [网码市|切图](http://www.qietu.com/codes/)
 - [jQuery API 3.1.0](http://jquery.cuishifeng.cn/)
 
-## 8.博客
+## 1-5.素材
+- [素材之家](http://www.sucaijiayuan.com/)
+- [17素材](http://www.17sucai.com/)
+- [站长素材](http://sc.chinaz.com/)
+- [100素材网](http://www.100sucai.com/)
+- [懒人图库](http://www.lanrentuku.com/)
+
+# 2.博客
 - [极限前端](http://www.fefork.com/fetool/)
 - [jayli](https://github.com/jayli/jayli.github.com/issues?q=is%3Aopen+is%3Aissue)
 - [WEB前端开发](http://www.css88.com/)
@@ -186,24 +130,99 @@ comments: false
 - [美团](https://tech.meituan.com/)
 - [淘宝前端团队](http://taobaofed.org/)
 
-## 9.其它
-- [懒人图库](http://www.lanrentuku.com/)
-- [创造狮导航](http://chuangzaoshi.com/)
+# 3.在线课程 ##
+- [**牛客网**](https://www.nowcoder.com/)
+- [**领扣**](https://leetcode-cn.com/)
+- [慕课网](http://www.imooc.com/)
+- [百度传课](http://www.chuanke.com/)
+- [腾讯课堂](https://ke.qq.com/)
+- [极客学院](http://www.jikexueyuan.com/)
+- [网易云课堂](http://study.163.com/)
+- [51CTO学院](http://edu.51cto.com/)
+- [汇智网](http://www.hubwiz.com/)
+- [传智播客](http://www.itcast.cn/)
+- [IT修真院](https://www.jnshu.com/home)
+- [百战程序员](https://www.itbaizhan.cn/stages/id/16)
+- [freecodecamp](https://freecodecamp.cn/)
+- [智能社](http://www.zhinengshe.com/)
+- [实验楼](https://www.shiyanlou.com/)
 
-### 9-1.在线字体和图标
+# 4.工具集合 ##
+## 4-1.图片压缩和放大 ###
+- [图好看](http://www.tuhaokuai.com/image) 
+- [智图](http://zhitu.isux.us/)
+- [tinypng](https://tinypng.com/)
+- [图片放大](http://bigjpg.com/)
+
+## 4-2.雪碧图
+- [**spritecow**](http://www.spritecow.com/)
+
+## 4-3.在线占位图 ###
+- [**temp.im**](http://temp.im/300x200/333/EEE)
+- [**placeholder.cn**](http://placeholder.cn/300x200/333/EEE)
+- [占位图导航](http://c7sky.com/the-top-10-image-placeholder-services.html)
+- [lorempixel.com](http://lorempixel.com/)
+- [placehold.it](http://placehold.it/)
+- [dummyimage.com](http://dummyimage.com/)
+- [fakeimg.pl](http://fakeimg.pl/)
+
+## 4-4.在线工具
+- [在线工具](http://tool.oschina.net/)
+- [在线工具2](http://tool.lu/)
+- [jsfiddle.net](https://jsfiddle.net/)
+- [jsrun](http://jsrun.net/)
+- [懒人工具箱](http://tool.lanrentuku.com/)
+- [Jshare](https://jshare.com.cn/new)
+- [**tool.css-js**](https://www.css-js.com/)
+
+## 4-5.CDN
+- [BootCDN](https://www.bootcdn.cn/)
+- [七牛云静态资源](https://www.staticfile.org/)
+- [75CDN](https://cdn.baomitu.com/)
+- [今日头条静态资源公共库](https://cdn.bytedance.com/)
+- [新浪云计算CDN公共库](http://lib.sinaapp.com/)
+- [又拍云](http://jscdn.upai.com/)
+
+## 4-6.评论系统
+- [多说](http://duoshuo.com/)
+- [友言](http://www.uyan.cc/)
+- [搜狐快站](http://www.kuaizhan.com/)
+
+# 5.编码规范
+- [编码规范总结](https://github.com/ecomfe/spec)
+- [Google web开发规范](http://wf.uisdc.com/cn/)
+- [前端代码规范](http://guide.chenzh.net/)
+
+# 6.HTML及相关
+## 6-1.pug
+
+## 6-2.CANVAS
+
+# 7.CSS及相关
+## 7-1.在线字体和图标
 - [Font Awesome](http://fontawesome.dashgame.com/#spinning)
 - [iconfont](http://www.iconfont.cn/)
 - [icono](https://saeedalipoor.github.io/icono/)
 - [Justfont](http://cn.justfont.com/)
 - [字体库](http://www.youziku.com/Home/Index)
 
-## 10.JS和jQuery插件
+## 7-2.CSS预加载
+- [less](http://lesscss.cn/)
+- [sass](http://www.w3cplus.com/sassguide/)
+
+## 7-3.UI框架
+- [bootstrap中文网](http://www.bootcss.com/)
+- [layui](http://www.layui.com/)
+
+## 7-4.CSS验证
+- [csslint](http://csslint.net/)
+
+# 8.JS及相关内容
+## 8-1.JS综合网站
 - [JavaScript中文网](https://www.javascriptcn.com/)
 - [JavaScript中文网2](http://www.itxueyuan.org/)
-- [jQuery 小技巧](https://github.com/jobbole/jquery-tips-everyone-should-know)
-- [Ajax中国](http://www.okajax.com/)
 
-### 10-1.jQuery综合网站
+## 8-2.jQuery综合网站
 - [jQuery插件库](http://www.jq22.com/)
 - [jQuery之家](http://www.htmleaf.com/)
 - [jq-school](http://www.jq-school.com/)
@@ -212,57 +231,110 @@ comments: false
 - [酷站代码](http://www.5icool.org/) 
 - [JQ酷](http://www.jqcool.net/) 
 
-
-### 10-2.素材
-- [素材之家](http://www.sucaijiayuan.com/)
-- [17素材](http://www.17sucai.com/)
-- [站长素材](http://sc.chinaz.com/)
-- [100素材网](http://www.100sucai.com/)
-
-## 11.评论系统
-- [多说](http://duoshuo.com/)
-- [友言](http://www.uyan.cc/)
-- [搜狐快站](http://www.kuaizhan.com/)
-
-## 12.图表
-- [echarts](http://echarts.baidu.com/)
-- [highcharts](http://www.highcharts.com/)
-- [D3](https://d3js.org/)
-- [Chart.js](http://www.bootcss.com/p/chart.js/)
-
-## 13.编码规范
-- [编码规范总结](https://github.com/ecomfe/spec)
-- [Google web开发规范](http://wf.uisdc.com/cn/)
-- [前端代码规范](http://guide.chenzh.net/)
-
-## 14.模块化和框架
-### 14-1.模块化
-- [sea.js](http://seajs.org/docs/#intr)
-- [artTemplate](http://aui.github.io/artTemplate/)
-- [requirejs](http://www.requirejs.cn/)
-
-### 14-2.UI框架
-- [bootstrap中文网](http://www.bootcss.com/)
-- [layui](http://www.layui.com/)
-
-### 14-3.JS框架
+## 8-3.JS框架
 - [vue.js](https://cn.vuejs.org/)
 - [weex](https://weex-project.io/)
 - [three.js](http://www.ituring.com.cn/minibook/792)
 - [Mand Mobile](https://mand-mobile.gitee.io/docs/index.gitee.html#/zh-CN/home)
 
-### 14-4.CSS框架
-- [less](http://lesscss.cn/)
-- [sass](http://www.w3cplus.com/sassguide/)
+## 8-4.正则表达式
 
-## 15.验证
+## 8-5.混合开发
+- [NativeScript](https://www.kancloud.cn/nativescriptcn/nativescript-in-chinese/231086)
+- Weex
+
+## 8-6.JS验证
 - [jslint](http://www.jslint.com/)
-- [csslint](http://csslint.net/)
 
-## 16.工程化
-- [Gulp中文网](http://www.gulpjs.com.cn/)
+## 8-7.Babel
+- [Babel]()
+
+## 8-8.TypeScript
+
+# 9.Node.js及相关内容
+## 9-1.Node.js教程 ##
+- [菜鸟教程-Node.js教程](http://www.runoob.com/nodejs/nodejs-tutorial.html)
+- [Node入门](http://www.nodebeginner.org/index-zh-cn.html#javascript-and-nodejs)
+- [node.js相关的中文文档及教程(豆瓣小组)](https://www.douban.com/group/topic/35067110/)
+- [进击Node.js基础（一）](http://www.imooc.com/view/348)
+- [官网](https://nodejs.org/en/)
+- [中文官网](http://nodejs.cn/)
+- [Node.js 包教不包会](https://github.com/alsotang/node-lessons)
+- [CNode：Node.js专业中文社区]( https://cnodejs.org/)
+- [Node.js的学习资源、教程和工具](http://blog.jobbole.com/75084/)
+- [七天学会NodeJS](http://nqdeng.github.io/7-days-nodejs/#1.1)
+- [nodejs全部下载地址 官方](https://nodejs.org/dist/)
+- [Node.js v8.x 中文文档](https://www.nodeapp.cn/)
+- [Node.js知识体系图](http://www.jikexueyuan.com/path/nodejs/)
+
+## 9-2.NPM
 - [npm 中文网](https://www.npmjs.com.cn/)
 
-## 17.数据库
+## 9-3.Yarn
+
+## 9-4.后台框架
+- [koa]()
+
+# 10.数据库
+## 10-1.MongoDB
 - [MongoDB中文网](http://www.mongodb.org.cn/)
 - [MongoDB中文社区](http://mongoing.com/)
+
+## 10-2.MySQL
+
+## 10-3.NoSQL
+
+# 11.工程化
+## 11-1.脚手架
+- [Yeoman]()
+
+## 11-2.打包工具
+- Parcel
+- [Gulp中文网](http://www.gulpjs.com.cn/)
+- Webpack
+
+# 12.可视化
+- [echarts](http://echarts.baidu.com/)
+- [highcharts](http://www.highcharts.com/)
+- [D3](https://d3js.org/)
+- [Chart.js](http://www.bootcss.com/p/chart.js/)
+
+# 13.PWA
+- [LAVAS](https://lavas.baidu.com/)
+
+# 14.模块化
+- [sea.js](http://seajs.org/docs/#intr)
+- [artTemplate](http://aui.github.io/artTemplate/)
+- [requirejs](http://www.requirejs.cn/)
+
+# 15.小程序
+
+# 16.游戏开发
+- three.js
+
+# 17.版本管理
+- Git
+- SVN
+
+# 18.API
+
+# 19.markdown
+
+# 20.性能优化
+
+# 21.SEO
+
+# 22.安全
+
+# 23.测试相关
+## 23-1.调试工具
+- Chrome开发者工具
+- fiddler
+
+# 24.软技能
+
+# 25.开发工具
+
+# 26.Python
+
+# 27.WebAssembly
