@@ -6,37 +6,31 @@ comments: false
 ---
 # 一、前端导航
 ## 1.常用导航
-- [**tool.css-js**](http://tool.css-js.com/)
+- [**tool.css-js**](https://www.css-js.com/)
 - [**tinypng**](https://tinypng.com/)
 - [**spritecow**](http://www.spritecow.com/)
-- [**百度静态资源公共库**](http://cdn.code.baidu.com/)
 
 ## 2.我的使用
 - [**七牛云存储**](https://portal.qiniu.com/create)
 - [**微信公众平台**](https://mp.weixin.qq.com/)
 - [**阿里云**](https://www.aliyun.com/)
-- [**我的网站**](http://www.justforlu.cn/)
-- [简书](http://www.jianshu.com/)
 
 ## 3.在线课程 ##
-- [**慕课网**](http://www.imooc.com/)
+- [**牛客网**](https://www.nowcoder.com/)
+- [**领扣**](https://leetcode-cn.com/)
+- [慕课网](http://www.imooc.com/)
 - [百度传课](http://www.chuanke.com/)
 - [腾讯课堂](https://ke.qq.com/)
 - [极客学院](http://www.jikexueyuan.com/)
-- [麦子学院](http://www.maizitime.com/)
 - [网易云课堂](http://study.163.com/)
 - [51CTO学院](http://edu.51cto.com/)
-- [HTML5培训](http://www.h5edu.cn/index.php)
-- [极客标签](http://www.gbtags.com/gb/index.htm)
-- [mooc学院](http://mooc.guokr.com/)
 - [汇智网](http://www.hubwiz.com/)
 - [传智播客](http://www.itcast.cn/)
-- [萌码](http://www.mengma.com/)
 - [IT修真院](https://www.jnshu.com/home)
 - [百战程序员](https://www.itbaizhan.cn/stages/id/16)
 - [freecodecamp](https://freecodecamp.cn/)
-- [牛客网](https://www.nowcoder.com/)
-- [领扣](https://leetcode-cn.com/)
+- [智能社](http://www.zhinengshe.com/)
+- [实验楼](https://www.shiyanlou.com/)
 
 ## 4.Node.js教程 ##
 - [菜鸟教程-Node.js教程](http://www.runoob.com/nodejs/nodejs-tutorial.html)
@@ -45,20 +39,20 @@ comments: false
 - [进击Node.js基础（一）](http://www.imooc.com/view/348)
 - [官网](https://nodejs.org/en/)
 - [中文官网](http://nodejs.cn/)
-- [Node.js(综合站点)](http://www.nodejs.net/)
 - [Node.js 包教不包会](https://github.com/alsotang/node-lessons)
-- [Node.js api](http://nodeapi.ucdok.com/#/api/)
-- [NodeJs参考手册](http://www.w3cfuns.com/tools.php?mod=booknodejs)
 - [CNode：Node.js专业中文社区]( https://cnodejs.org/)
-- [Gulp中文网](http://www.gulpjs.com.cn/)
 - [Node.js的学习资源、教程和工具](http://blog.jobbole.com/75084/)
 - [七天学会NodeJS](http://nqdeng.github.io/7-days-nodejs/#1.1)
+- [nodejs全部下载地址 官方](https://nodejs.org/dist/)
+- [Node.js v8.x 中文文档](https://www.nodeapp.cn/)
+- [Node.js知识体系图](http://www.jikexueyuan.com/path/nodejs/)
 
 ## 5.工具集合 ##
-### 5-1.图片压缩 ###
+### 5-1.图片压缩和放大 ###
 - [图好看](http://www.tuhaokuai.com/image) 
 - [智图](http://zhitu.isux.us/)
 - [tinypng](https://tinypng.com/)
+- [图片放大](http://bigjpg.com/)
 
 ### 5-2.在线占位图 ###
 - [**temp.im**](http://temp.im/300x200/333/EEE)
@@ -75,7 +69,6 @@ comments: false
 - [jsfiddle.net](https://jsfiddle.net/)
 - [jsrun](http://jsrun.net/)
 - [懒人工具箱](http://tool.lanrentuku.com/)
-- [前端工具库](http://www.qdfuns.com/tools.php)
 - [Jshare](https://jshare.com.cn/new)
 
 ## 6.综合站点
@@ -127,6 +120,7 @@ comments: false
 - [知乎](https://www.zhihu.com/)
 - [小专栏](https://xiaozhuanlan.com/)
 - [异步社区](https://www.epubit.com/)
+- [简书](http://www.jianshu.com/)
 
 ### 6-3.导航网站
 - [前端技能汇总](http://html5ify.com/fks/)
@@ -259,7 +253,14 @@ comments: false
 - [less](http://lesscss.cn/)
 - [sass](http://www.w3cplus.com/sassguide/)
 
-
 ## 15.验证
 - [jslint](http://www.jslint.com/)
 - [csslint](http://csslint.net/)
+
+## 16.工程化
+- [Gulp中文网](http://www.gulpjs.com.cn/)
+- [npm 中文网](https://www.npmjs.com.cn/)
+
+## 17.数据库
+- [MongoDB中文网](http://www.mongodb.org.cn/)
+- [MongoDB中文社区](http://mongoing.com/)

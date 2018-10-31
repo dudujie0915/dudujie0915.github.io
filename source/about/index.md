@@ -94,10 +94,10 @@ comments: false
 - JSDoc
 - YUIDoc
 ----------
-- **HBuilder**
 - **VS code**
 - **Photoshop**
-- **Sublime text 3**
+- **HBuilder**
+- Sublime text 3
 - VIM
 - notepad++
 - EditPlus
@@ -105,11 +105,11 @@ comments: false
 ----------
 - **Firebug**
 - **Web Inspector**
-- **IE Tester**
 - **Fiddle**
 - **willow**
 - IEDevloperToolBar
 - Companions
+- IE Tester
 ----------
 - **SVN**
 - **[Git](/categories/Git/)**
