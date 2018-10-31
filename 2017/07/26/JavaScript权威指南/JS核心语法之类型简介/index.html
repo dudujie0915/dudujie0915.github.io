@@ -1,0 +1,1159 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.lug.ustc.edu.cn/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="教程,JavaScript,笔记," />
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.0" />
+
+
+
+
+
+
+<meta name="description" content="编程语言最基本的特性就是能够支持多种数据类型；变量的工作机制是编程语言的另一个进本特性；JavaScript分类方法：①原始类型和对象类型；②可以拥有方法的类型和不能拥有方法的类型；③可变类型和不可变类型；JavaScript的数据类型分为两类：原始类型：数字、字符串、布尔值、null(空)、underfined(未定义)；对象类型：对象、数组、函数；对象是属性的集合，每个属性都由“名/值对”(值">
+<meta name="keywords" content="教程,JavaScript,笔记">
+<meta property="og:type" content="article">
+<meta property="og:title" content="【笔记】核心语法之类型简介">
+<meta property="og:url" content="https://dudujie0915.github.io/2017/07/26/JavaScript权威指南/JS核心语法之类型简介/index.html">
+<meta property="og:site_name" content="大前端">
+<meta property="og:description" content="编程语言最基本的特性就是能够支持多种数据类型；变量的工作机制是编程语言的另一个进本特性；JavaScript分类方法：①原始类型和对象类型；②可以拥有方法的类型和不能拥有方法的类型；③可变类型和不可变类型；JavaScript的数据类型分为两类：原始类型：数字、字符串、布尔值、null(空)、underfined(未定义)；对象类型：对象、数组、函数；对象是属性的集合，每个属性都由“名/值对”(值">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2018-08-27T09:56:37.316Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="【笔记】核心语法之类型简介">
+<meta name="twitter:description" content="编程语言最基本的特性就是能够支持多种数据类型；变量的工作机制是编程语言的另一个进本特性；JavaScript分类方法：①原始类型和对象类型；②可以拥有方法的类型和不能拥有方法的类型；③可变类型和不可变类型；JavaScript的数据类型分为两类：原始类型：数字、字符串、布尔值、null(空)、underfined(未定义)；对象类型：对象、数组、函数；对象是属性的集合，每个属性都由“名/值对”(值">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: '6309315823106278000',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="https://dudujie0915.github.io/2017/07/26/JavaScript权威指南/JS核心语法之类型简介/"/>
+
+
+
+
+
+  <title> 【笔记】核心语法之类型简介 | 大前端 </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+
+
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?12aacbec20d94d2161999403530e16da";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//tajs.qq.com/stats?sId=61098905";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">大前端</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">前端开发程序猿</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-nav">
+          <a href="/nav" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-bars"></i> <br />
+            
+            导航
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocapitalize="off" autocomplete="off" autocorrect="off"
+             placeholder="搜索..." spellcheck="false"
+             type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://dudujie0915.github.io/2017/07/26/JavaScript权威指南/JS核心语法之类型简介/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Dudujie">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="大前端">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                【笔记】核心语法之类型简介
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-07-26T00:00:00+08:00">
+                2017-07-26
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/JavaScript/" itemprop="url" rel="index">
+                    <span itemprop="name">JavaScript</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a class="cloud-tie-join-count" href="/2017/07/26/JavaScript权威指南/JS核心语法之类型简介/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count join-count" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/2017/07/26/JavaScript权威指南/JS核心语法之类型简介/" class="leancloud_visitors" data-flag-title="【笔记】核心语法之类型简介">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数 </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>编程语言最基本的特性就是能够支持多种数据类型；<br>变量的工作机制是编程语言的另一个进本特性；<br>JavaScript分类方法：①原始类型和对象类型；②可以拥有方法的类型和不能拥有方法的类型；③可变类型和不可变类型；<br>JavaScript的数据类型分为两类：<br>原始类型：数字、字符串、布尔值、null(空)、underfined(未定义)；<br>对象类型：对象、数组、函数；<br>对象是属性的集合，每个属性都由“名/值对”(值可是原始值，也可是对象)构成，特殊对象–全局对象；<br>特殊对象–数组，表示带编号的值得有序集合，有专用的语法，使数组有一些和普通对象不同的特有行为特性；<br>特殊对象–函数，有专用语法；函数用来初始化(使用new运算符)一个新建的对象，可称为构造函数；每个构造函数定义了一类对象–由构造函数初始化的对象组成的集合；类可以看成对象类型的子类型；除数组类和函数类之外，还有日期(Date)类、正则(RegExp)类、错误(Error)类；<br>JavaScript解释器有自己的内存管理机制，可以自动对内存进行垃圾回收；<br><a id="more"></a><br>我们不用全局的定义函数去操作不同类型的值，数据类型本身可以定义方法来使用值，如a.sort()等；<br>从技术上讲，只有JavaScript对象才能拥有方法，但是，数字、字符串和布尔值也可以拥有自己的方法，只有null和underfined是无法拥有方法的值；<br>可变类型的值是可修改的；对象和数组属于可变类型：可改变对象属性值和数组元素的值；数字、布尔值、null和underfined属于不可变类型；<br>JavaScript可以自由进行数据类型转换；<br>JavaScript变量是无类型的，变量可以被赋予任何类型的值，同样一个变量也可以重新赋予不同类型的值；使用var关键字来生命变量；JavaScript采用词法作用域；不在任何函数内声明的变量称为全局变量，它在JavaScript程序中的任何地方都是可见的；在函数内声明的变量具有函数作用域，并且只在函数内可见；    </p>
+<h1 id="布尔值"><a href="#布尔值" class="headerlink" title="布尔值"></a>布尔值</h1><p>布尔值代指真或假、开或关、是或否，它只有两个值，保留字true和false；<br>JavaScript程序中的比较语句结果通常都是布尔值；<br>布尔值通常用于JavaScript中的控制结构中；<br>任意JavaScript的值都可以转换为布尔值；<br>为false的布尔值有：<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">underfined  <span class="literal">null</span>  <span class="number">0</span>  <span class="number">-0</span>  <span class="literal">NaN</span>  <span class="string">""</span>或<span class="string">''</span>  <span class="literal">false</span></span><br></pre></td></tr></table></figure></p>
+<p>其他值，包括所有对象和数组（包括空数组和空对象）都会转换成true；<br>布尔值包含toString()方法，使用此方法将字符串转换成”true”或”false”，但它并不包含其他有用的方法；<br>布尔运算符：<code>&amp;&amp;(与)</code>当两个操作符都为真时返回true，否则返回false；<code>||(或)</code>当两个操作符中的一个为值时就返回true，如果两个操作符都是假值则返回false；<code>!(非)</code>如果操作数是真值返回false，是假值返回true；<br>相等运算符<code>===,!==,==,!=</code>和比较运算符<code>&gt;,&gt;=,&lt;,&lt;=</code>也会返回布尔值；</p>
+<h1 id="null和underfined"><a href="#null和underfined" class="headerlink" title="null和underfined"></a>null和underfined</h1><p>null表示一个”空值”，是关键字，可以将它认为是一个特殊的对象值，含义是”非对象”；实际上，通常认为null是它自有类型的唯一一个成员，它可以表示数字、字符串和对象是”无值”的；<br>underfined表示更深层次的”空值”,不是关键字，是未定义的值，他是变量的一种取值，表示变量没有初始化，查询对象属性或数组元素的值时返回underfined则说明这个属性或元素不存在；如果函数没有返回任何值，则返回undefined，引用没有提供实参的函数形参的值也会得到underfined；underfined是预定义的全局变量，是只读的；使用typeof运算符得到underfined的类型，则返回”underfined”，表示这个值是这个类型的唯一成员；<br>underfined和null往往可以互换，用相等运算符”==”判断两者是相等的(使用严格相等运算符”===”可以区分它们)；在希望值是布尔类型的地方它们都是假值，和false类似；它们都不包含任何属性和方法；<br>如果想将null和underfined赋值给变量或属性，或将它们作为参数传入函数，最佳选择是使用null；</p>
+<h1 id="全局对象"><a href="#全局对象" class="headerlink" title="全局对象"></a>全局对象</h1><p>全局对象的属性是全局定义的符号，JavaScript程序可以直接使用；当JavaScript解释器启动时(或任意Web浏览器加载新页面时)，它将创建一个新的全局对象，并给它一组定义的初始属性：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">全局属性，如underfined、Infinity和NaN</span><br><span class="line">全局函数，如isNaN()、parseInt()和eval()等</span><br><span class="line">构造函数，如Date()、RegExp()、String()、Object()和Array()等</span><br><span class="line">全局对象，如Math和JSON</span><br></pre></td></tr></table></figure></p>
+<p>全局对象的初始属性并不是保留字，但它们应该当做保留字来对待；<br>客户端JavaScript中，Window对象定义了一些额外的全局属性；<br>在代码的最顶级–不在任何函数内的JavaScript代码–可以使用JavaScript关键字this来引用全局变量；<br>在客户端JavaScript中，在其表示的浏览器窗口中的所有JavaScript代码中，Windows对象充当了全局对象；它有一个属性window引用其自身，替代了this来引用全局对象；<br>如果代码声明了一个全局变量，这个全局变量就是全局对象的一个属性；</p>
+<h1 id="包装对象"><a href="#包装对象" class="headerlink" title="包装对象"></a>包装对象</h1><p>JavaScript对象是一种复合值，它是属性或已命名值得集合，通过”.”符号来引用属性值；当属性值是一个函数时，称其为方法；通过o.m()来调用对象o中的方法；<br>字符串、数字和布尔值具有各自的方法：通过String()、Number()和Boolean()构造函数创建一个临时对象，这些方法的调用均来自于这个临时对象；方法被用来处理属性的引用，一旦属性引用结束，这个新创建的对象将会销毁；<br>null和underfined没有包装对象；<br>存取字符串、数字或布尔值的属性时创建的临时对象称做包装对象，它只是偶尔用来区分字符串值和字符串对象、数字和数值对象以及布尔值和布尔对象；通常包装对象只被看成一种实现细节，不用特别关注；由于字符串、数字和布尔值的属性都是只读的，并不能为它们定义新属性，需要明白它们有别于对象；<br>可通过String()、Number()和Boolean()构造函数来显式创建包装对象，JavaScript会在必要时将包装对象转换成原始值，因此”==”等于运算符将原始值和其包装对象视为同等。但”===”全等运算符将它们视为不等；</p>
+<h1 id="确认类型的运算符"><a href="#确认类型的运算符" class="headerlink" title="确认类型的运算符"></a>确认类型的运算符</h1><p>JavaScript有三种方法，可以确认一个值到底是什么类型：typeof预算符，instanceof运算符，Object.prototype.toString方法；</p>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/教程/" rel="tag"># 教程</a>
+          
+            <a href="/tags/JavaScript/" rel="tag"># JavaScript</a>
+          
+            <a href="/tags/笔记/" rel="tag"># 笔记</a>
+          
+        </div>
+      
+
+      
+        
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/07/26/JavaScript权威指南/JS核心语法之字符串/" rel="next" title="【笔记】核心语法之字符串">
+                <i class="fa fa-chevron-left"></i> 【笔记】核心语法之字符串
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2017/07/28/JavaScript权威指南/JS核心语法之变量/" rel="prev" title="【笔记】核心语法之变量">
+                【笔记】核心语法之变量 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/avatar.png"
+               alt="Dudujie" />
+          <p class="site-author-name" itemprop="name">Dudujie</p>
+           
+              <p class="site-description motion-element" itemprop="description">天行健，君子以自强不息；<br>地势坤，君子以厚德载物；</p>
+          
+        </div>
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/archives">
+                <span class="site-state-item-count">20</span>
+                <span class="site-state-item-name">日志</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-categories">
+              <a href="/categories/index.html">
+                <span class="site-state-item-count">8</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              <a href="/tags/index.html">
+                <span class="site-state-item-count">17</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/dudujie0915" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  GitHub
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="http://weibo.com/u/2901623213" target="_blank" title="Weibo">
+                  
+                    <i class="fa fa-fw fa-weibo"></i>
+                  
+                  Weibo
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+          <div class="links-of-blogroll motion-element links-of-blogroll-inline">
+            <div class="links-of-blogroll-title">
+              <i class="fa  fa-fw fa-globe"></i>
+              友情链接
+            </div>
+            <ul class="links-of-blogroll-list">
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://cdn.code.baidu.com/" title="百度静态库" target="_blank">百度静态库</a>
+                </li>
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://www.spritecow.com/" title="Sprite Cow" target="_blank">Sprite Cow</a>
+                </li>
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://tool.css-js.com/" title="tool.css-js" target="_blank">tool.css-js</a>
+                </li>
+              
+                <li class="links-of-blogroll-item">
+                  <a href="https://tinypng.com/" title="TinyPNG" target="_blank">TinyPNG</a>
+                </li>
+              
+                <li class="links-of-blogroll-item">
+                  <a href="https://portal.qiniu.com/create" title="七牛云" target="_blank">七牛云</a>
+                </li>
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://jsrun.net/" title="JSRun" target="_blank">JSRun</a>
+                </li>
+              
+            </ul>
+          </div>
+        
+
+        
+
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#布尔值"><span class="nav-number">1.</span> <span class="nav-text">布尔值</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#null和underfined"><span class="nav-number">2.</span> <span class="nav-text">null和underfined</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#全局对象"><span class="nav-number">3.</span> <span class="nav-text">全局对象</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#包装对象"><span class="nav-number">4.</span> <span class="nav-text">包装对象</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#确认类型的运算符"><span class="nav-number">5.</span> <span class="nav-text">确认类型的运算符</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy;  2016 - 
+  <span itemprop="copyrightYear">2018</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Dudujie</span>
+</div>
+
+
+<div class="powered-by">
+  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Pisces
+  </a>
+</div>
+
+
+        
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+  
+  <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
+
+  
+  <script type="text/javascript" src="/lib/three/three.min.js"></script>
+
+  
+  <script type="text/javascript" src="/lib/three/three-waves.min.js"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.0"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.0"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.0"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.0"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+    
+    <script>
+      var cloudTieConfig = {
+        url: document.location.href, 
+        sourceId: "",
+        productKey: "004d1c678a0441daa8ee3a2fcfcd0dad",
+        target: "cloud-tie-wrapper"
+      };
+    </script>
+    <script src="https://img1.ws.126.net/f2e/tie/yun/sdk/loader.js"></script>
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length == 0) {
+      search_path = "search.xml";
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.popup').toggle();
+    }
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+      $.ajax({
+        url: path,
+        dataType: "xml",
+        async: true,
+        success: function( xmlResponse ) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = $( "entry", xmlResponse ).map(function() {
+            return {
+              title: $( "title", this ).text(),
+              content: $("content",this).text(),
+              url: $( "url" , this).text()
+            };
+          }).get();
+          var $input = document.getElementById(search_id);
+          var $resultContent = document.getElementById(content_id);
+          $input.addEventListener('input', function(){
+            var matchcounts = 0;
+            var str='<ul class=\"search-result-list\">';
+            var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+            $resultContent.innerHTML = "";
+            if (this.value.trim().length > 1) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var content_index = [];
+                var data_title = data.title.trim().toLowerCase();
+                var data_content = data.content.trim().replace(/<[^>]+>/g,"").toLowerCase();
+                var data_url = decodeURIComponent(data.url);
+                var index_title = -1;
+                var index_content = -1;
+                var first_occur = -1;
+                // only match artiles with not empty titles and contents
+                if(data_title != '') {
+                  keywords.forEach(function(keyword, i) {
+                    index_title = data_title.indexOf(keyword);
+                    index_content = data_content.indexOf(keyword);
+                    if( index_title >= 0 || index_content >= 0 ){
+                      isMatch = true;
+                      if (i == 0) {
+                        first_occur = index_content;
+                      }
+                    }
+
+                  });
+                }
+                // show search results
+                if (isMatch) {
+                  matchcounts += 1;
+                  str += "<li><a href='"+ data_url +"' class='search-result-title'>"+ data_title +"</a>";
+                  var content = data.content.trim().replace(/<[^>]+>/g,"");
+                  if (first_occur >= 0) {
+                    // cut out 100 characters
+                    var start = first_occur - 20;
+                    var end = first_occur + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if(start == 0){
+                      end = 50;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    var match_content = content.substring(start, end);
+                    // highlight all keywords
+                    keywords.forEach(function(keyword){
+                      var regS = new RegExp(keyword, "gi");
+                      match_content = match_content.replace(regS, "<b class=\"search-keyword\">"+keyword+"</b>");
+                    });
+
+                    str += "<p class=\"search-result\">" + match_content +"...</p>"
+                  }
+                  str += "</li>";
+                }
+              })};
+            str += "</ul>";
+            if (matchcounts == 0) { str = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>' }
+            if (keywords == "") { str = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>' }
+            $resultContent.innerHTML = str;
+          });
+          proceedsearch();
+        }
+      });}
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched == false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(function(e){
+      $('.popup').hide();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    });
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
+  <script>AV.initialize("fL6IRDOyOIk1J5KkbjCQ7KiU-gzGzoHsz", "FwgOQaDLRQM5O1YTEpcBs8L7");</script>
+  <script>
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+          for(var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if( countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("time");
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
+
+  
+
+  
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+
+  
+
+  
+
+</body>
+</html>
