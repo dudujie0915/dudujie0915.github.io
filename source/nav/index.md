@@ -40,7 +40,7 @@ comments: false
 - [爱思资源网](http://www.aseoe.com/)
 - [前端学院](http://edu.aseoe.com/)
 - [w3cschool.cn](https://www.w3cschool.cn/)
-- [infoq](http://www.infoq.com/cn/)
+- [infoq](http://www.infoq.cn/)
 - [前端每周清单](http://www.infoq.com/cn/FE-Weekly/news/)
 - [常用前端代码](http://www.jq22.com/webinfo1)
 - [Web开发者](http://www.admin10000.com/)
@@ -147,6 +147,8 @@ comments: false
 - [美团](https://tech.meituan.com/)
 - [淘宝前端团队](http://taobaofed.org/)
 - [HTML5学堂](https://www.h5course.com/)
+- [FEX](http://fex.baidu.com)
+- [hellogithub](https://hellogithub.com/)
 
 # 2.工具集合 ##
 ## 2-1.图片压缩和放大 ###
@@ -175,6 +177,7 @@ comments: false
 - [懒人工具箱](http://tool.lanrentuku.com/)
 - [Jshare](https://jshare.com.cn/new)
 - [**tool.css-js**](https://www.css-js.com/)
+- [RunJS](http://runjs.cn/)
 
 ## 2-5.CDN
 - [BootCDN](https://www.bootcdn.cn/)
