@@ -300,6 +300,7 @@ comments: false
 ## 6-5.混合开发
 ### 6-5-1.NativeScript
 - [NativeScript](https://www.kancloud.cn/nativescriptcn/nativescript-in-chinese/231086)
+- [appcan](http://www.appcan.cn/)
 
 ### 6-5-2.Weex
 - [weex](https://weex-project.io/)
@@ -427,6 +428,8 @@ comments: false
 - [小程序弹出层---史上最简单写法,已解决滚动穿透问题](https://blog.csdn.net/qq_33802316/article/details/77506171)
 - [微信小程序：自定义弹出层](https://blog.csdn.net/qq_37017864/article/details/77303628)
 - [微信小程序 使用filter过滤器几种方式](https://segmentfault.com/a/1190000012246412)
+- [Megalo--基于 Vue 的小程序框架](https://megalojs.org/#/)
+- [mpvue](http://mpvue.com/)
 
 # 14.游戏开发
 - [three.js](http://www.ituring.com.cn/minibook/792)
